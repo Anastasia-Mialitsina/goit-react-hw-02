@@ -1,6 +1,6 @@
-import Styles from "./Options.module.css";
+import styles from "./Options.module.css";
 
-const Options = ({ feedback, setFeedback }) => {
+const Options = ({ setFeedback }) => {
    const updateFeedback = (feedbackType) => {
     setFeedback((prev) => ({
       ...prev,
@@ -9,10 +9,19 @@ const Options = ({ feedback, setFeedback }) => {
    };
 
    return (
-     <div>
-       <button onClick={() => updateFeedback("good")}>Good</button>
-       <button onClick={() => updateFeedback("neutral")}>Neutral</button>
-       <button onClick={() => updateFeedback("bad")}>Bad</button>
+     <div className={styles.option}>
+       <button className={styles.button} onClick={() => updateFeedback("good")}>
+         Good
+       </button>
+       <button
+         className={styles.button}
+         onClick={() => updateFeedback("neutral")}
+       >
+         Neutral
+       </button>
+       <button className={styles.button} onClick={() => updateFeedback("bad")}>
+         Bad
+       </button>
      </div>
    );
  };

@@ -1,10 +1,10 @@
-import Styles from "./Description.module.css";
+import styles from "./Description.module.css";
 
 const Description = () => {
   return (
-    <div>
-      <h1>Sip Happens Café</h1>
-      <p>
+    <div className={styles.container}>
+      <h1 className={styles.titledscr}>Sip Happens Café</h1>
+      <p className={styles.ph}>
         Please leave your feedback about our service by selecting one of the
         options below.
       </p>

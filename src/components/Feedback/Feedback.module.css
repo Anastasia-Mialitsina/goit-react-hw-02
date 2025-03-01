@@ -2,17 +2,19 @@
   text-align: center;
   font-size: 1.2rem;
 }
-
 .feedback span {
   font-weight: bold;
-  color: #2f2f2f;
 }
-
 .statistics {
-  margin-top: 20px;
+  margin-top: 40px;
   font-size: 1.1rem;
 }
-
 .statistics p {
-  margin: 5px 0;
+  margin: 8px 0;
 }
+.phf {
+  color: rgb(8, 6, 6);
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(94, 11, 110, 0.3), -1px -1px 2px rgba(255, 255, 255, 0.5);
+}
+
