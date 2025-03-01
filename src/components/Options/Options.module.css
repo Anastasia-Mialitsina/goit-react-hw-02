@@ -1,0 +1,31 @@
+.button {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #4caf50; 
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #45a049; 
+}
+
+.button.neutral {
+  background-color: #f0ad4e; 
+}
+
+.button.neutral:hover {
+  background-color: #ec971f; 
+}
+
+.button.bad {
+  background-color: #d9534f; 
+}
+
+.button.bad:hover {
+  background-color: #c9302c; 
+}
